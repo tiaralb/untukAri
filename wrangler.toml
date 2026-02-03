@@ -1,0 +1,7 @@
+name = "birthday-wishes-api"
+main = "worker.js"
+compatibility_date = "2024-01-01"
+
+[[kv_namespaces]]
+binding = "BIRTHDAY_WISHES"
+id = "6c1ac83a36404e6d9ae89fc11476e6ea"
