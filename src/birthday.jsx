@@ -430,7 +430,7 @@ export default function BirthdayWebsite() {
                 UCAPAN UNTUK ARI
               </h2>
               <p className="text-base sm:text-xl text-gray-300 mb-6">
-                Haaaai sayang ini ada ucapan dan doa dari orang-orang yang sayang sama kamu loh! dibaca yaaa
+                Haaaai sayang ini ada ucapan dan doa dari orang-orang yang sayang sama kamu loh! dibaca yaaa 
               </p>
               
               <button
@@ -544,10 +544,10 @@ export default function BirthdayWebsite() {
                   ))}
                 </div>
 
-                {wishes.length > 8 && (
+                {wishes.length > 20 && (
                   <div className="text-center">
                     <p className="text-gray-400 text-sm sm:text-base">
-                      Dan {wishes.length - 8} ucapan lainnya... 💕
+                      Dan {wishes.length - 20} ucapan lainnya... 💕
                     </p>
                   </div>
                 )}
