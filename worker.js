@@ -66,34 +66,8 @@ async function handleGetWishes(env) {
       .map(w => JSON.parse(w))
       .sort((a, b) => b.timestamp - a.timestamp); // Sort newest first
 
-    // If no wishes exist, create default ones
-    if (wishes.length === 0) {
-      const defaultWishes = [
-        {
-          id: 'default-1',
-          name: 'YAYA',
-          message: 'hehe ini testing',
-          relation: 'keluarga',
-          timestamp: Date.now() - 4000
-        },
-        
-      ];
-
-      // Save default wishes to KV
-      for (const wish of defaultWishes) {
-        await env.BIRTHDAY_WISHES.put(
-          `wish:${wish.id}`,
-          JSON.stringify(wish)
-        );
-      }
-
-      return new Response(JSON.stringify({ wishes: defaultWishes }), {
-        headers: {
-          'Content-Type': 'application/json',
-          ...corsHeaders
-        }
-      });
-    }
+    // Return empty array if no wishes exist (no default wishes)
+    // If you want default wishes, add them manually through the dashboard
 
     return new Response(JSON.stringify({ wishes }), {
       headers: {

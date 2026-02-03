@@ -388,7 +388,7 @@ export default function BirthdayWebsite() {
                         Surprise Message!
                       </p>
                       <p className="text-sm sm:text-base md:text-xl text-white leading-relaxed">
-                        sayang, maaf ya... aku belum bisa memberi sesuatu yang berarti untuk kamu, bahkan untuk beliin kado aku belum mampu, kita berdoa bareng-bareng yuk semoga rezeki kita semakin banyak kamu bolehh beli apa yang kamu mau sayangku, kita rayain kecil-kecilan dulu ya, kita rayain semua pencapaian yang ada di hidup kita, semoga apapun ujiannya kita bisa saling menguatkan satu sama lain, btw ini messagenya jangan discreenshoot ya makannya aku buat rahasia wkwkwkwk ditunggu ya kado jam seiko yang 3,3 juta ituuuuu, sekali lagi selamat ulang tahun imamku, cintaku, surgaku
+                        sayang, maaf ya... aku belum bisa memberi sesuatu yang berarti untuk kamu, kita berdoa bareng-bareng yuk semoga rezeki kita semakin banyak kamu bolehh beli apa yang kamu mau sayangku, kita rayain kecil-kecilan dulu ya, kita rayain semua pencapaian yang ada di hidup kita saat ini, semoga apapun ujiannya kita bisa saling menguatkan satu sama lain, ditunggu ya kado impian kamu itu, sekali lagi selamat ulang tahun imamku, cintaku, surgaku
                       </p>
                     </div>
                   </div>
@@ -430,7 +430,7 @@ export default function BirthdayWebsite() {
                 UCAPAN UNTUK ARI
               </h2>
               <p className="text-base sm:text-xl text-gray-300 mb-6">
-                Kata-kata dari orang-orang yang menyayangimu
+                Haaaai sayang ini ada ucapan dari orang-orang yang sayang sama kamu loh! 
               </p>
               
               <button
