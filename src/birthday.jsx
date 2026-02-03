@@ -429,6 +429,7 @@ export default function BirthdayWebsite() {
               <h2 className="text-3xl sm:text-5xl md:text-7xl font-black text-white mb-3 sm:mb-4 text-bold">
                 UCAPAN UNTUK ARI
               </h2>
+             
               
               <button
                 onClick={() => setShowWishForm(!showWishForm)}
@@ -440,11 +441,10 @@ export default function BirthdayWebsite() {
                   <Sparkles className="w-5 h-5" />
                 </span>
               </button>
-            </div>
-
-            <p className="text-base sm:text-xl text-gray-300 mb-6">
-                Haaaai sayang ini ada ucapan dari orang-orang yang sayang sama kamu loh! dibaca yaaa
+               <p className="text-base sm:text-xl text-gray-300 mb-6">
+                Haaaai sayang ini ada ucapan dan doa dari orang-orang yang sayang sama kamu loh! dibaca yaaa
               </p>
+            </div>
 
             {/* Wish Form */}
             {showWishForm && (
