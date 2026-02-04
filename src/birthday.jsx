@@ -517,7 +517,7 @@ export default function BirthdayWebsite() {
             ) : (
               <>
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-6 sm:gap-8 mb-8">
-                  {wishes.slice(0, 20).map((wish, idx) => (
+                  {wishes.slice(0, 50).map((wish, idx) => (
                     <div 
                       key={wish.id || idx} 
                       className="bg-gradient-to-br from-white/10 to-white/5 backdrop-blur-xl rounded-2xl sm:rounded-3xl p-6 sm:p-8 border border-white/20 hover:scale-105 transition-all duration-300 hover:border-amber-400/50 animate-expand"
@@ -544,10 +544,10 @@ export default function BirthdayWebsite() {
                   ))}
                 </div>
 
-                {wishes.length > 20 && (
+                {wishes.length > 50 && (
                   <div className="text-center">
                     <p className="text-gray-400 text-sm sm:text-base">
-                      Dan {wishes.length - 20} ucapan lainnya... 💕
+                      Dan {wishes.length - 50} ucapan lainnya... 💕
                     </p>
                   </div>
                 )}
